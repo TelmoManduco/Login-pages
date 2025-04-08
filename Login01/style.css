@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(150deg, #4D55CC, #B5A8D5);
+}
+
+form {
+    background-color: rgba(128, 0, 128, 0.001);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.57);
+}
+
+form > h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.695);
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box > input {
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btn {
+    width: 100%;
+    padding: 5px;
+    background: #b5a8d5b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.btn:hover {
+    background-color: #4D55CC;
+    color: white;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.forgot > a:hover {
+    text-decoration: underline;
+}
