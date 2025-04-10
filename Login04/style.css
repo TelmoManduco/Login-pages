@@ -81,9 +81,6 @@ html, body {
     text-decoration: underline;
 }
 
-.img-cont > img {
-    display: none;
-}
 
 .socials > img {
     width: 45px;
@@ -106,18 +103,27 @@ html, body {
         background-image: linear-gradient(to right, #006a9e, #70255d);
     }
 
-    .main-cont {
+    .sub-cont {
         display: flex;
         flex-direction: row;
-    }
-
-    .sub-cont {
-        width: 800px;
+        width: 1100px;
         height: 500px;
+        overflow: hidden;
     }
 
-    form {
-        width: 50%;
+    .form-side {
+        width: 40%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-side {
+        width: 60%;
+        height: 100%;
+        background: url("images/back-img.jpg") no-repeat center center;
+        background-size: cover;
     }
 
     }
